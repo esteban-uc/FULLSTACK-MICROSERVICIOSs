@@ -6,6 +6,11 @@ spring:
   application:
     name: msrestaurantes
 
+    output:
+      ansi:
+        enabled: ALWAYS
+
+
   # ==========================
   # MYSQL (Laragon)
   # ==========================

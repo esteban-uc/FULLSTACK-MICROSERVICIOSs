@@ -6,6 +6,11 @@ spring:
   application:
     name: msautenticacion
 
+    output:
+      ansi:
+        enabled: ALWAYS
+
+
   # ==========================
   # MYSQL (Laragon)
   # ==========================

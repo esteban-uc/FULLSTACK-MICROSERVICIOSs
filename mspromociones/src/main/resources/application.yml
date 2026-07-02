@@ -6,6 +6,11 @@ spring:
   application:
     name: mspromociones
 
+    output:
+      ansi:
+        enabled: ALWAYS
+
+
   # ==========================
   # MYSQL (Laragon)
   # ==========================

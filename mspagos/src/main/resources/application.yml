@@ -6,6 +6,11 @@ spring:
   application:
     name: mspagos
 
+    output:
+      ansi:
+        enabled: ALWAYS
+
+
   # ==========================
   # MYSQL (Laragon)
   # ==========================

@@ -6,6 +6,12 @@ spring:
   application:
     name: mspedidos
 
+
+    output:
+      ansi:
+        enabled: ALWAYS
+
+
   # ==========================
   # MYSQL (Laragon)
   # ==========================
